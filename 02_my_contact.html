@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Contact</title>
+    </head>
+    <body>
+        <h3>Reach me at:-</h3>
+        <ul>
+            <li><a href="mailto:fictionalMail@gmail.com">My Mail</a>
+            <li><a href="tel:(+00)fictionalNumber">+00 0000000000</a>
+        </ul>
+        <hr>
+        <form action="mailto:fictionalMail@gmail.com" method="post" enctype="text/plain">
+            <table cellspacing=7px>
+                <tr>
+                    <td><label type="name" name="name">Name :</label>
+                    <input type="text" name="name"><br></td>
+                </tr>
+                <tr>
+                    <td><label type="mail" name="mail">Email:&nbsp</label>
+                    <input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label type="Date" name="DOB">Date of Birthday:&nbsp</label>
+                        <input type="date" name="DOB"></td>
+                </tr>
+                <tr>
+                    <td><label type="Color" name="fav-color">Favourite colour:&nbsp</label>
+                    <input type="color" name="fav-color"></td>
+                </tr>
+                <tr>
+                    <td><label type="text" name="fav-movie">Which of the following is your favourite movie?</label><br>
+                        <input name="fav-movie" type="radio"><label id="iron-man">Iron man</label><br>
+                        <input name="fav-movie" type="radio"><label id="avatar">Avatar</label><br>
+                        <input name="fav-movie" type="radio"><label id="tron">Tron</label><br>
+                        <input name="fav-movie" type="radio" checked><label id="none-of-these">none of these</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label type="text" name="proficiency-cpp">How proficient are you in C++?&nbsp</label>
+                        <input type="range" name="cpp" min="0" max="100"><br>
+                        <label type="text" name="proficiency-python">How proficient are you in Python?&nbsp</label>
+                        <input type="range" name="python" min="0" max="100"><br>
+                        <label type="text" name="proficiency-c">How proficient are you in C?&nbsp</label>
+                        <input type="range" name="c" min="0" max="100">
+                    </td>
+                <tr>
+                    <td><label type="text" name="message-box">Message:-</label>
+                        <br><textarea rows=10 cols=50></textarea><br><br>
+                        <input type="button" id="submit-button" value="Submit">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label type"subscribe">Do you want to subscribe to our mail blast?</label>&nbsp<input type="checkbox"></td>
+                </tr>
+            <table>
+        </form>
+    </body>
+</html>
